@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main {
+    width: 100%;
+    background-image: url(img1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar {
+    /* width: 1200px; */
+    height: 75px;
+    margin: auto;
+}
+
+.icon {
+    width: 150px;
+    height: 80px;
+    float: left;
+}
+
+.logo {
+    color: #000;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 30px;
+    padding-top: 10px;
+    float: left;
+}
+
+.menu {
+    width: 450px;
+    height: 80px;
+    float: left;
+}
+
+ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    margin-left: 30px;
+    margin-top: 17px;
+    font-size: 14px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    color: #ff7200;
+}
+
+.searchbar {
+    width: 200px;
+    float: left;
+    margin-left: 0px;
+    display: flex;
+}
+
+.search {
+    font-family: 'Times New Roman', Times, serif;
+    width: 150px;
+    height: 22px;
+    border: 1px solid #ff7200;
+    margin-top: 13px;
+    color: #000;
+    font-size: 16px;
+    padding: 10px;
+    float: left;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn {
+    width: 100%;
+    height: 25px;
+    border: 2px solid #ff7200;
+    color: #333;
+    margin-top: 11px;
+    font-size: 15px;
+}
+
+
+.content {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    color: #000;
+    margin-left: 0px;
+    display: flex;
+}
+
+.text {
+    background-color: #333;
+    color: #fff;
+    padding: 0px 40px ;
+}
+
+.text h2 {
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    padding: 30px 10px;
+}
+
+.text p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.btns {
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    background-color: #ff7200;
+    margin-left: 100px;
+    padding: 5px 10px;
+    
+}
+
+.btns a {
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+
+
+
+.image img {
+    width: 450px;
+}
+
